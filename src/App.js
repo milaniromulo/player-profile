@@ -17,7 +17,7 @@ const App = () => {
     useEffect(()=>{
         async function loadData(){
             const user_id = localStorage.getItem('user')
-            const response = await axios.get('http://www.mocky.io/v2/5e1a33553100004e0084b5f7', {
+            const response = await axios.get('https://www.mocky.io/v2/5e1a33553100004e0084b5f7', {
                 headers: {
                     user_id
                 }
