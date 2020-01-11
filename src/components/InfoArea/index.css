@@ -1,0 +1,73 @@
+.infos-area{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .infos-area .profile-infos{
+    width: 50%;
+  }
+
+  @media (max-width:420px){
+    .infos-area .profile-infos{
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
+  
+  .infos-area .profile-infos h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #2B2C2D;
+  }
+  
+  .infos-area .profile-infos .team-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 250px;
+    margin: 20px 0;
+  }
+  
+  .infos-area .profile-infos ul li{
+    font-size: 13px;
+  }
+  
+  .infos-area .profile-infos ul li:first-child img{
+    max-width: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .infos-area .profile-infos ul li:first-child span{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .infos-area .player-info {
+    max-width: 200px;
+  }
+  
+  .infos-area .player-info li{
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .infos-area .player-info li span.info{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #6C6D6F;
+    text-transform: uppercase;
+  }
+  .infos-area .player-info li span.value{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }

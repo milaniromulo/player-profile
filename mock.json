@@ -1,0 +1,28 @@
+{
+    "id": "013",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3992.png&w=350&h=254",
+    "firstName": "James",
+    "lastName": "Harden",
+    "number": "13",
+    "position": "Armador",
+    "height": 1.96,
+    "weight": 99,
+    "birthDate": "26/8/1989",
+    "age": "30",
+    "teamName": "SESI Franca",
+    "teamImage": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Franca_basquete_logo.png/220px-Franca_basquete_logo.png",
+    "physicals": {
+        "speed": 3,
+        "strength": 2,
+        "acceleration": 4,
+        "leapingAbility": 3,
+        "agility" : 5
+    },
+    "primitives": {
+        "dribbles": 5,
+        "shot": 4,
+        "rebound": 1,
+        "possession": 3,
+        "turnover" : 2
+    }
+}

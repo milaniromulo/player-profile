@@ -1,0 +1,30 @@
+.skills-chart-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .skills-chart-area .primitives{
+    width: 50%;
+  }
+  .skills-chart-area .physicals{
+    width: 50%;
+  }
+  
+  .skills-chart{
+    width: 100%;
+    max-width: 720px;
+    max-height: 400px;
+    display: block;
+    overflow: hidden;
+    margin: 30px auto 0;
+  }
+  
+
+  @media (max-width:767px){
+    .skills-chart-area .primitives{
+      width: 100%;
+    }
+    .skills-chart-area .physicals{
+      width: 100%;
+    }
+  }
